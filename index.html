@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centennial College Survey</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="https://cdn.grb.uk.com/fileadmin/uploads/blog/Headers/How-to-stay-positive-after-graduation-header.jpg" class="banner" alt="banner">
+            <h1 id="title"><strong>Centennial College</strong></h1>
+            <h3 id="sub-header">Continuing Education Course / Instruction Evaluation</h2>
+
+            <p id="description" class="description">Please read each statement carefully and consider each one individually. Use the <b>computer card</b> to make your choice (use your cursor to fill in the space). Give only <b>one answer</b> for each question</p>
+        </header>
+
+        <form id="form-grp">
+            <div class="form-grp">
+                <h3 class="sub-header2"><strong>Information</strong></h3>
+                <label for="course" id="course-label">Couse Name / Code</label>
+                <input type="text" name="course-code" id="course" placeholder="Enter your Course Code" required>
+            </div>
+
+            <div class="form-grp">
+                <div class="radio-grp">
+                    <label for="semester"><strong>Semester</strong></label>
+                    
+                    <input type="radio" name="semester" id="fall" value="fall"><label for="fall"> Fall </label>
+                
+                    <input type="radio" name="semester" id="winter" value="winter"><label for="winter"> Winter </label>
+                    
+                    <input type="radio" name="semester" id="smr" value="smr"><label for="smr"> Spring/Summer &emsp;</label>
+                
+                    <label for="year" class="year"><strong>&emsp;Year</strong></label>
+
+                    <input type="text" name="year" id="year" placeholder="Year" required>
+                </div>
+            </div>
+
+            <div class="form-grp">
+                <label for="instructor" id="instructor-label">Instructor</label>
+                <input type="instructor" name="instructor" id="instructor" placeholder="Enter your Course Instructor *" required>
+            </div>
+
+            <div class="form-grp">
+                <div class="form-grp">
+                    <h3 class="sub-header2"><strong>Information</strong></h3>
+                    <label for="course" id="course-label">Course Name / Code</label>
+                    <input type="text" name="course-code" id="course" placeholder="Enter your Course Code" required>
+                </div>
+    
+                <div class="form-grp">
+                    <div class="radio-grp">
+                        <label for="semester"><strong>Semester</strong></label>
+                        <input type="radio" name="semester" id="fall" value="fall"><label for="fall"> Fall </label>
+                        <input type="radio" name="semester" id="winter" value="winter"><label for="winter"> Winter </label>
+                        <input type="radio" name="semester" id="smr" value="smr"><label for="smr"> Spring/Summer </label>
+                        <label for="year" class="year"><strong>&emsp;Year</strong></label>
+                        <input type="text" name="year" id="year" placeholder="Year" required>
+                    </div>
+                </div>
+    
+                <div class="form-grp">
+                    <label for="instructor" id="instructor-label">Instructor</label>
+                    <input type="text" name="instructor" id="instructor" placeholder="Enter your Course Instructor *" required>
+                </div>
+    
+                <div class="form-grp">
+                    <h3 class="sub-header2"><strong>Instructor</strong></h3>
+                    <p>How would you rate the instructor's:</p>
+    
+                    <label for="knowledge">1. <strong>Knowledge</strong> of subject?</label>
+                    <div class="radio-grp">
+                        <input type="radio" name="knowledge_rating" id="knowledge_excellent" value="excellent"><label for="knowledge_excellent"> Excellent </label>
+                        <input type="radio" name="knowledge_rating" id="knowledge_good" value="good"><label for="knowledge_good"> Good </label>
+                        <input type="radio" name="knowledge_rating" id="knowledge_fair" value="fair"><label for="knowledge_fair"> Fair </label>
+                        <input type="radio" name="knowledge_rating" id="knowledge_ns" value="ns"><label for="knowledge_ns"> Not Satisfactory </label>
+                    </div>
+    
+                    <label for="help">2. <strong>Helpfulness</strong>?</label>
+                    <div class="radio-grp">
+                        <input type="radio" name="help_rating" id="help_excellent" value="excellent"><label for="help_excellent"> Excellent </label>
+                        <input type="radio" name="help_rating" id="help_good" value="good"><label for="help_good"> Good </label>
+                        <input type="radio" name="help_rating" id="help_fair" value="fair"><label for="help_fair"> Fair </label>
+                        <input type="radio" name="help_rating" id="help_ns" value="ns"><label for="help_ns"> Not Satisfactory </label>
+                    </div>
+    
+                    <label for="respect">3. <strong>Courtesy and respect</strong> for all students?</label>
+                    <div class="radio-grp">
+                        <input type="radio" name="respect_rating" id="respect_excellent" value="excellent"><label for="respect_excellent"> Excellent </label>
+                        <input type="radio" name="respect_rating" id="respect_good" value="good"><label for="respect_good"> Good </label>
+                        <input type="radio" name="respect_rating" id="respect_fair" value="fair"><label for="respect_fair"> Fair </label>
+                        <input type="radio" name="respect_rating" id="respect_ns" value="ns"><label for="respect_ns"> Not Satisfactory </label>
+                    </div>
+    
+                    <label for="comm">4. <strong>Communication</strong> skills?</label>
+                    <div class="radio-grp">
+                        <input type="radio" name="comm_rating" id="comm_excellent" value="excellent"><label for="comm_excellent"> Excellent </label>
+                        <input type="radio" name="comm_rating" id="comm_good" value="good"><label for="comm_good"> Good </label>
+                        <input type="radio" name="comm_rating" id="comm_fair" value="fair"><label for="comm_fair"> Fair </label>
+                        <input type="radio" name="comm_rating" id="comm_ns" value="ns"><label for="comm_ns"> Not Satisfactory </label>
+                    </div>
+    
+                    <label for="performance">5. Overall <strong>performance</strong>?</label>
+                    <div class="radio-grp">
+                        <input type="radio" name="performance_rating" id="performance_excellent" value="excellent"><label for="performance_excellent"> Excellent </label>
+                        <input type="radio" name="performance_rating" id="performance_good" value="good"><label for="performance_good"> Good </label>
+                        <input type="radio" name="performance_rating" id="performance_fair" value="fair"><label for="performance_fair"> Fair </label>
+                        <input type="radio" name="performance_rating" id="performance_ns" value="ns"><label for="performance_ns"> Not Satisfactory </label>
+                    </div>
+                </div>
+    
+                <div class="form-grp">
+                    <h3 class="sub-header2"><strong>Course</strong></h3>
+                    
+                    <label for="material">6. How would you rate the <strong>course materials</strong>?</label>
+                    <div class="radio-grp">
+                        <input type="radio" name="material_rating" id="material_excellent" value="excellent"><label for="material_excellent"> Excellent </label>
+                        <input type="radio" name="material_rating" id="material_good" value="good"><label for="material_good"> Good </label>
+                        <input type="radio" name="material_rating" id="material_fair" value="fair"><label for="material_fair"> Fair </label>
+                        <input type="radio" name="material_rating" id="material_ns" value="ns"><label for="material_ns"> Not Satisfactory </label>
+                    </div>
+    
+                    <label for="expectations">7. How much did the course meet your <strong>expectations</strong>?</label>
+                    <div class="radio-grp">
+                        <input type="radio" name="expectations_rating" id="expectations_excellent" value="excellent"><label for="expectations_excellent"> Excellent </label>
+                        <input type="radio" name="expectations_rating" id="expectations_good" value="good"><label for="expectations_good"> Good </label>
+                        <input type="radio" name="expectations_rating" id="expectations_fair" value="fair"><label for="expectations_fair"> Fair </label>
+                        <input type="radio" name="expectations_rating" id="expectations_ns" value="ns"><label for="expectations_ns"> Not Satisfactory </label>
+                    </div>
+    
+                    <label for="overall">8. How would you rate this course <strong>(overall)</strong>?</label>
+                    <div class="radio-grp">
+                        <input type="radio" name="overall_rating" id="overall_excellent" value="excellent"><label for="overall_excellent"> Excellent </label>
+                        <input type="radio" name="overall_rating" id="overall_good" value="good"><label for="overall_good"> Good </label>
+                        <input type="radio" name="overall_rating" id="overall_fair" value="fair"><label for="overall_fair"> Fair </label>
+                        <input type="radio" name="overall_rating" id="overall_ns" value="ns"><label for="overall_ns"> Not Satisfactory </label>
+                    </div>
+
+            <div class="form-grp">
+                <h3 class="sub-header2"><strong>General Information</strong></h3>
+                
+                <label for="outline">9. Was the <strong>course outline</strong> reviewed/explained at the beginning of your course?</label>
+                
+                <div class="radio-grp">
+                    <input type="radio" name="outline_rating" id="yes" value="yes"><label for="yes"> Yes&emsp; </label>
+
+                    <input type="radio" name="outline_rating" id="no" value="no"><label for="no"> No&emsp; </label>
+
+                    <input type="radio" name="outline_rating" id="maybe" value="maybe"><label for="maybe"> Maybe&emsp; </label>
+                </div>
+
+                <label for="recommnedation">10. Would you <strong>recommend</strong> this course to a friend with the same interests?</label>
+                
+                <div class="radio-grp">
+                    <input type="radio" name="recommend_rating" id="yes" value="yes"><label for="yes"> Yes&emsp; </label>
+
+                    <input type="radio" name="recommend_rating" id="no" value="no"><label for="no"> No&emsp; </label>
+
+                    <input type="radio" name="recommend_rating" id="maybe" value="maybe"><label for="maybe"> Maybe&emsp; </label>
+            
+                </div>
+            </div>
+
+            <div class="form-grp">
+                <h3 class="sub-header2"><strong>Any Other Comments</strong></h3>
+
+                <div class="form-grp">
+                    <label for="best" id="best-label">What is the <strong>best thing</strong> about this course</label>
+                    <input type="text" name="best" id="best" placeholder="Enter your Comment">
+                </div>
+
+                <div class="form-grp">
+                    <label for="improvement" id="improvement-label">How could <strong>we improve</strong> this course</label>
+                    <input type="text" name="improvement" id="improvement" placeholder="Enter your Comment">
+                </div>
+
+                <div class="form-grp">
+                    <div class="form-grp">
+                        <label for="other">Other</label>
+                    </div>
+                    <textarea name="other" id="other" placeholder="Tell Us How Can We Improve.."></textarea>
+                </div>
+            </div>
+
+           
+
+            <div class="form-grp">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>Visit our <a href="https://www.centennialcollege.ca/">College Website</a> or email us at <a href="mailto:careerservices@centennialcollege.ca">CareerServices@CentennialCollege.ca</a></p>
+    </footer>
+</body>
+</html>
